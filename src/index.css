@@ -1,1 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  background-color: #FFF5C3;
+}
+
+/* main app */
+
+.app{
+  width: 600px;
+  height: 500px;
+  background-color: #282d35;
+  color: #fff;
+  margin-top: 50px;
+  margin-left: 400px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
+      -2px -2px 5px rgba(255, 255, 255, 0.3);
+}
+
+/* navbar */
+
+.logo{
+  width: 40px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #21222a;
+  padding: 30px 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  overflow: hidden;
+  white-space: break-word;
+}
+.h3{
+  margin-left: -100px;
+  color: #61dbfb;
+  font-size: 22px;
+}
+
+/* main */
+main{
+  padding: 50px 0;
+}
+
+
+.mainh1{
+  font-size: 35px;
+  padding-left: 20px ;
+  margin-bottom: 30px;
+}
+
+.list{
+  padding-left: 70px;
+  width: 90%;
+}
+
+.list > li{
+  margin-top: 10px;
+}
+
+.list>li::marker{
+  color: #61dbfb;
+  font-size: 25px;
+}

@@ -7,7 +7,7 @@ import Main from './components/main';
 
 
 function App(){
-  return <div className="component">
+  return <div className="app">
             <Nav />
             <Main />
          </div>
